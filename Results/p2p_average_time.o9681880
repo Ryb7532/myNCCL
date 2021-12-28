@@ -1,0 +1,59 @@
+data: 64K
+(Rank 0) time: 0.098 ms
+(Rank 1) time: 0.099 ms
+
+data: 128K
+(Rank 0) time: 0.123 ms
+(Rank 1) time: 0.124 ms
+
+data: 256K
+(Rank 0) time: 0.172 ms
+(Rank 1) time: 0.172 ms
+
+data: 512K
+(Rank 0) time: 0.273 ms
+(Rank 1) time: 0.274 ms
+
+data: 1M
+(Rank 0) time: 0.340 ms
+(Rank 1) time: 0.340 ms
+
+data: 2M
+(Rank 0) time: 0.588 ms
+(Rank 1) time: 0.587 ms
+
+data: 4M
+(Rank 0) time: 1.076 ms
+(Rank 1) time: 1.077 ms
+
+data: 8M
+(Rank 0) time: 2.080 ms
+(Rank 1) time: 2.080 ms
+
+data: 16M
+(Rank 0) time: 4.121 ms
+(Rank 1) time: 4.122 ms
+
+data: 32M
+(Rank 0) time: 8.209 ms
+(Rank 1) time: 8.209 ms
+
+data: 64M
+(Rank 0) time: 16.329 ms
+(Rank 1) time: 16.330 ms
+
+data: 128M
+(Rank 0) time: 33.486 ms
+(Rank 1) time: 33.486 ms
+
+data: 256M
+(Rank 0) time: 64.372 ms
+(Rank 1) time: 64.373 ms
+
+data: 512M
+(Rank 0) time: 131.182 ms
+(Rank 1) time: 131.183 ms
+
+data: 1024M
+(Rank 1) time: 255.813 ms
+(Rank 0) time: 255.814 ms

@@ -1,1 +1,3 @@
 # myNCCL
+
+my NCCL exercise
