@@ -1,0 +1,4 @@
+Failed: NCCL error bidirectional_comm.cu:126 'invalid usage'
+Failed: NCCL error bidirectional_comm.cu:126 'invalid usage'
+[MPI Rank 0] Succcess
+[MPI Rank 1] Succcess

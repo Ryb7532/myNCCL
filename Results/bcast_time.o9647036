@@ -1,0 +1,24 @@
+data: 1M
+(Rank 1) time: 0.308 ms
+(Rank 0) time: 0.391 ms
+
+data: 4M
+(Rank 1) time: 2.183 ms
+(Rank 0) time: 2.098 ms
+
+data: 16M
+(Rank 1) time: 8.116 ms
+(Rank 0) time: 8.058 ms
+
+data: 64M
+(Rank 1) time: 31.919 ms
+(Rank 0) time: 31.878 ms
+
+data: 256M
+(Rank 1) time: 127.182 ms
+(Rank 0) time: 127.106 ms
+
+data: 1024M
+(Rank 1) time: 506.823 ms
+(Rank 0) time: 506.770 ms
+
