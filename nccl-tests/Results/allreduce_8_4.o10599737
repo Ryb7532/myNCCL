@@ -1,0 +1,53 @@
+# nThread 1 nGpus 4 minBytes 4096 maxBytes 4294967296 step: 4(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid  20281 on     r1i5n6 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  1 Pid  20281 on     r1i5n6 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  2 Pid  20281 on     r1i5n6 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank  3 Pid  20281 on     r1i5n6 device  3 [0x87] Tesla P100-SXM2-16GB
+#   Rank  4 Pid  47830 on     r6i6n7 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  5 Pid  47830 on     r6i6n7 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  6 Pid  47830 on     r6i6n7 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank  7 Pid  47830 on     r6i6n7 device  3 [0x87] Tesla P100-SXM2-16GB
+#   Rank  8 Pid   7253 on     r5i3n0 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  9 Pid   7253 on     r5i3n0 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 10 Pid   7253 on     r5i3n0 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 11 Pid   7253 on     r5i3n0 device  3 [0x87] Tesla P100-SXM2-16GB
+#   Rank 12 Pid  20403 on     r1i0n5 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 13 Pid  20403 on     r1i0n5 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 14 Pid  20403 on     r1i0n5 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 15 Pid  20403 on     r1i0n5 device  3 [0x87] Tesla P100-SXM2-16GB
+#   Rank 16 Pid   9372 on     r8i6n0 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 17 Pid   9372 on     r8i6n0 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 18 Pid   9372 on     r8i6n0 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 19 Pid   9372 on     r8i6n0 device  3 [0x87] Tesla P100-SXM2-16GB
+#   Rank 20 Pid  25423 on     r6i1n1 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 21 Pid  25423 on     r6i1n1 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 22 Pid  25423 on     r6i1n1 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 23 Pid  25423 on     r6i1n1 device  3 [0x87] Tesla P100-SXM2-16GB
+#   Rank 24 Pid   4521 on     r1i5n2 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 25 Pid   4521 on     r1i5n2 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 26 Pid   4521 on     r1i5n2 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 27 Pid   4521 on     r1i5n2 device  3 [0x87] Tesla P100-SXM2-16GB
+#   Rank 28 Pid  37931 on     r8i7n5 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 29 Pid  37931 on     r8i7n5 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 30 Pid  37931 on     r8i7n5 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 31 Pid  37931 on     r8i7n5 device  3 [0x87] Tesla P100-SXM2-16GB
+#
+#                                                       out-of-place                       in-place          
+#       size         count      type   redop     time   algbw   busbw  error     time   algbw   busbw  error
+#        (B)    (elements)                       (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+        4096          1024     float     sum    104.1    0.04    0.08  7e-07    119.4    0.03    0.07  7e-07
+       16384          4096     float     sum    145.5    0.11    0.22  7e-07    131.5    0.12    0.24  7e-07
+       65536         16384     float     sum    237.7    0.28    0.53  7e-07    237.8    0.28    0.53  7e-07
+      262144         65536     float     sum    635.7    0.41    0.80  1e-06    633.3    0.41    0.80  1e-06
+     1048576        262144     float     sum    654.8    1.60    3.10  7e-07    642.9    1.63    3.16  7e-07
+     4194304       1048576     float     sum   2703.3    1.55    3.01  1e-06   2697.5    1.55    3.01  1e-06
+    16777216       4194304     float     sum   4951.8    3.39    6.56  1e-06   4950.9    3.39    6.57  1e-06
+    67108864      16777216     float     sum    17394    3.86    7.48  1e-06    17485    3.84    7.44  1e-06
+   268435456      67108864     float     sum    69972    3.84    7.43  1e-06    70200    3.82    7.41  1e-06
+  1073741824     268435456     float     sum   280180    3.83    7.43  1e-06   280267    3.83    7.42  1e-06
+  4294967296    1073741824     float     sum  1008585    4.26    8.25  1e-06   842644    5.10    9.88  1e-06
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 4.15497 
+#

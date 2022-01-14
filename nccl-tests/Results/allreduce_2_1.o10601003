@@ -1,0 +1,23 @@
+# nThread 1 nGpus 1 minBytes 4096 maxBytes 4294967296 step: 4(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid  27849 on     r1i0n5 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  1 Pid  19160 on     r5i1n8 device  0 [0x06] Tesla P100-SXM2-16GB
+#
+#                                                       out-of-place                       in-place          
+#       size         count      type   redop     time   algbw   busbw  error     time   algbw   busbw  error
+#        (B)    (elements)                       (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+        4096          1024     float     sum    25.28    0.16    0.16  0e+00    24.62    0.17    0.17  0e+00
+       16384          4096     float     sum    38.82    0.42    0.42  0e+00    67.88    0.24    0.24  0e+00
+       65536         16384     float     sum    108.4    0.60    0.60  0e+00    109.4    0.60    0.60  0e+00
+      262144         65536     float     sum    192.3    1.36    1.36  0e+00    190.8    1.37    1.37  0e+00
+     1048576        262144     float     sum    331.4    3.16    3.16  0e+00    330.3    3.17    3.17  0e+00
+     4194304       1048576     float     sum   1012.0    4.14    4.14  0e+00    991.3    4.23    4.23  0e+00
+    16777216       4194304     float     sum   3801.1    4.41    4.41  0e+00   3765.0    4.46    4.46  0e+00
+    67108864      16777216     float     sum    14624    4.59    4.59  0e+00    14632    4.59    4.59  0e+00
+   268435456      67108864     float     sum    57978    4.63    4.63  0e+00    58166    4.62    4.62  0e+00
+  1073741824     268435456     float     sum   320443    3.35    3.35  0e+00   319400    3.36    3.36  0e+00
+  4294967296    1073741824     float     sum  1272001    3.38    3.38  0e+00  1272748    3.37    3.37  0e+00
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 2.74549 
+#
