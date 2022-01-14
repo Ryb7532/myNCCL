@@ -1,0 +1,25 @@
+# nThread 1 nGpus 4 minBytes 4096 maxBytes 4294967296 step: 4(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid   8833 on     r2i1n8 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  1 Pid   8833 on     r2i1n8 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  2 Pid   8833 on     r2i1n8 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank  3 Pid   8833 on     r2i1n8 device  3 [0x87] Tesla P100-SXM2-16GB
+#
+#                                                       out-of-place                       in-place          
+#       size         count      type   redop     time   algbw   busbw  error     time   algbw   busbw  error
+#        (B)    (elements)                       (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+        4096          1024     float     sum    18.73    0.22    0.33  2e-07    18.54    0.22    0.33  2e-07
+       16384          4096     float     sum    21.53    0.76    1.14  2e-07    20.79    0.79    1.18  2e-07
+       65536         16384     float     sum    26.01    2.52    3.78  2e-07    25.04    2.62    3.93  2e-07
+      262144         65536     float     sum    42.17    6.22    9.32  2e-07    43.02    6.09    9.14  2e-07
+     1048576        262144     float     sum    80.65   13.00   19.50  2e-07    80.71   12.99   19.49  2e-07
+     4194304       1048576     float     sum    166.6   25.18   37.77  2e-07    167.5   25.04   37.56  2e-07
+    16777216       4194304     float     sum    525.8   31.91   47.86  2e-07    528.7   31.73   47.60  2e-07
+    67108864      16777216     float     sum   2030.4   33.05   49.58  2e-07   2027.6   33.10   49.65  2e-07
+   268435456      67108864     float     sum   8046.3   33.36   50.04  2e-07   8036.0   33.40   50.11  2e-07
+  1073741824     268435456     float     sum    32052   33.50   50.25  2e-07    32087   33.46   50.20  2e-07
+  4294967296    1073741824     float     sum   128056   33.54   50.31  2e-07   128077   33.53   50.30  2e-07
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 29.0616 
+#

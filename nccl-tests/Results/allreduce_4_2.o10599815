@@ -1,0 +1,29 @@
+# nThread 1 nGpus 2 minBytes 4096 maxBytes 4294967296 step: 4(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid  13167 on     r5i1n8 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  1 Pid  13167 on     r5i1n8 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  2 Pid  28327 on     r2i0n0 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  3 Pid  28327 on     r2i0n0 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  4 Pid   2608 on     r2i1n8 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  5 Pid   2608 on     r2i1n8 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  6 Pid  41624 on     r4i1n5 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  7 Pid  41624 on     r4i1n5 device  1 [0x08] Tesla P100-SXM2-16GB
+#
+#                                                       out-of-place                       in-place          
+#       size         count      type   redop     time   algbw   busbw  error     time   algbw   busbw  error
+#        (B)    (elements)                       (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+        4096          1024     float     sum    96.95    0.04    0.07  2e-07    95.33    0.04    0.08  2e-07
+       16384          4096     float     sum    116.8    0.14    0.25  2e-07    169.2    0.10    0.17  2e-07
+       65536         16384     float     sum    173.2    0.38    0.66  2e-07    175.1    0.37    0.65  2e-07
+      262144         65536     float     sum    355.2    0.74    1.29  2e-07    355.7    0.74    1.29  2e-07
+     1048576        262144     float     sum    667.1    1.57    2.75  2e-07    657.8    1.59    2.79  2e-07
+     4194304       1048576     float     sum   1578.4    2.66    4.65  2e-07   1606.2    2.61    4.57  2e-07
+    16777216       4194304     float     sum   6317.7    2.66    4.65  2e-07   6338.4    2.65    4.63  2e-07
+    67108864      16777216     float     sum    25349    2.65    4.63  2e-07    25292    2.65    4.64  2e-07
+   268435456      67108864     float     sum   101467    2.65    4.63  2e-07   101369    2.65    4.63  2e-07
+  1073741824     268435456     float     sum   406057    2.64    4.63  2e-07   407079    2.64    4.62  2e-07
+  4294967296    1073741824     float     sum  1648889    2.60    4.56  2e-07  1660871    2.59    4.53  2e-07
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 2.97135 
+#
