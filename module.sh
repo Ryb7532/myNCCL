@@ -1,3 +1,3 @@
 #!/bin/sh
 
-module load cuda/10.2.89 openmpi cudnn/7.4 nccl
+module load gcc/8.3.0 intel cuda/11.2.146 openmpi nccl
