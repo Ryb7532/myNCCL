@@ -1,0 +1,45 @@
+# nThread 1 nGpus 3 minBytes 4096 maxBytes 4294967296 step: 4(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid  55914 on     r6i5n2 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  1 Pid  55914 on     r6i5n2 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  2 Pid  55914 on     r6i5n2 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank  3 Pid   3663 on     r3i5n0 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  4 Pid   3663 on     r3i5n0 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  5 Pid   3663 on     r3i5n0 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank  6 Pid  15079 on     r6i4n7 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  7 Pid  15079 on     r6i4n7 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  8 Pid  15079 on     r6i4n7 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank  9 Pid  54935 on     r5i4n6 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 10 Pid  54935 on     r5i4n6 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 11 Pid  54935 on     r5i4n6 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 12 Pid  17501 on     r1i4n7 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 13 Pid  17501 on     r1i4n7 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 14 Pid  17501 on     r1i4n7 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 15 Pid  34385 on     r3i6n8 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 16 Pid  34385 on     r3i6n8 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 17 Pid  34385 on     r3i6n8 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 18 Pid  18769 on     r8i1n7 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 19 Pid  18769 on     r8i1n7 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 20 Pid  18769 on     r8i1n7 device  2 [0x85] Tesla P100-SXM2-16GB
+#   Rank 21 Pid   4514 on     r4i4n0 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank 22 Pid   4514 on     r4i4n0 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank 23 Pid   4514 on     r4i4n0 device  2 [0x85] Tesla P100-SXM2-16GB
+#
+#                                                       out-of-place                       in-place          
+#       size         count      type   redop     time   algbw   busbw  error     time   algbw   busbw  error
+#        (B)    (elements)                       (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+        4096          1024     float     sum    251.0    0.02    0.03  5e-07    100.1    0.04    0.08  5e-07
+       16384          4096     float     sum    124.3    0.13    0.25  5e-07    122.3    0.13    0.26  5e-07
+       65536         16384     float     sum    292.5    0.22    0.43  7e-07    283.4    0.23    0.44  7e-07
+      262144         65536     float     sum    371.3    0.71    1.35  7e-07    367.8    0.71    1.37  7e-07
+     1048576        262144     float     sum   1237.8    0.85    1.62  7e-07   1229.2    0.85    1.64  7e-07
+     4194304       1048576     float     sum   1656.2    2.53    4.85  7e-07   1652.8    2.54    4.86  7e-07
+    16777216       4194304     float     sum   3506.7    4.78    9.17  7e-07   3313.6    5.06    9.70  7e-07
+    67108864      16777216     float     sum    12395    5.41   10.38  7e-07    12391    5.42   10.38  7e-07
+   268435456      67108864     float     sum    48924    5.49   10.52  7e-07    48897    5.49   10.52  7e-07
+  1073741824     268435456     float     sum   195794    5.48   10.51  7e-07   195584    5.49   10.52  7e-07
+  4294967296    1073741824     float     sum   878415    4.89    9.37  7e-07   856489    5.01    9.61  7e-07
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 5.35794 
+#
