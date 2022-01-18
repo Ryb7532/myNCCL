@@ -1,0 +1,25 @@
+# nThread 1 nGpus 2 minBytes 4096 maxBytes 4294967296 step: 4(factor) warmup iters: 5 iters: 20 validation: 1 
+#
+# Using devices
+#   Rank  0 Pid   4696 on     r1i3n7 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  1 Pid   4696 on     r1i3n7 device  1 [0x08] Tesla P100-SXM2-16GB
+#   Rank  2 Pid  16288 on     r4i3n5 device  0 [0x06] Tesla P100-SXM2-16GB
+#   Rank  3 Pid  16288 on     r4i3n5 device  1 [0x08] Tesla P100-SXM2-16GB
+#
+#                                                       out-of-place                       in-place          
+#       size         count      type   redop     time   algbw   busbw  error     time   algbw   busbw  error
+#        (B)    (elements)                       (us)  (GB/s)  (GB/s)            (us)  (GB/s)  (GB/s)       
+        4096          1024     float     sum    45.54    0.09    0.13  2e-07    115.2    0.04    0.05  2e-07
+       16384          4096     float     sum    55.24    0.30    0.44  2e-07    54.03    0.30    0.45  2e-07
+       65536         16384     float     sum    103.0    0.64    0.95  2e-07    101.9    0.64    0.96  2e-07
+      262144         65536     float     sum    181.6    1.44    2.16  2e-07    178.5    1.47    2.20  2e-07
+     1048576        262144     float     sum    304.6    3.44    5.16  2e-07    307.9    3.41    5.11  2e-07
+     4194304       1048576     float     sum    963.1    4.35    6.53  2e-07    961.3    4.36    6.54  2e-07
+    16777216       4194304     float     sum   3837.3    4.37    6.56  2e-07   3917.9    4.28    6.42  2e-07
+    67108864      16777216     float     sum    15341    4.37    6.56  2e-07    15332    4.38    6.57  2e-07
+   268435456      67108864     float     sum    79502    3.38    5.06  1e-07    80693    3.33    4.99  1e-07
+  1073741824     268435456     float     sum   334677    3.21    4.81  1e-07   358709    2.99    4.49  1e-07
+  4294967296    1073741824     float     sum  1315049    3.27    4.90  1e-07  1291062    3.33    4.99  1e-07
+# Out of bounds values : 0 OK
+# Avg bus bandwidth    : 3.91265 
+#
