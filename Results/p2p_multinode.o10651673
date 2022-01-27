@@ -1,0 +1,40 @@
+data: 4K
+(Rank 0) time: 0.030 ms
+(Rank 1) time: 0.030 ms
+
+data: 16K
+(Rank 0) time: 0.043 ms
+(Rank 1) time: 0.044 ms
+
+data: 64K
+(Rank 0) time: 0.082 ms
+(Rank 1) time: 0.082 ms
+
+data: 256K
+(Rank 0) time: 0.152 ms
+(Rank 1) time: 0.152 ms
+
+data: 1M
+(Rank 0) time: 0.527 ms
+(Rank 1) time: 0.528 ms
+
+data: 4M
+(Rank 1) time: 2.053 ms
+(Rank 0) time: 2.052 ms
+
+data: 16M
+(Rank 0) time: 7.892 ms
+(Rank 1) time: 7.892 ms
+
+data: 64M
+(Rank 1) time: 31.605 ms
+(Rank 0) time: 31.603 ms
+
+data: 256M
+(Rank 0) time: 126.508 ms
+(Rank 1) time: 126.509 ms
+
+data: 1024M
+(Rank 0) time: 505.558 ms
+(Rank 1) time: 505.557 ms
+
