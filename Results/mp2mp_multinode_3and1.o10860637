@@ -1,0 +1,92 @@
+data: 4K
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.003 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 0.178 ms
+(Rank 1) time: 0.164 ms
+(Rank 2) time: 0.164 ms
+(Rank 4) time: 0.178 ms
+
+data: 16K
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 0.256 ms
+(Rank 1) time: 0.240 ms
+(Rank 2) time: 0.240 ms
+(Rank 4) time: 0.256 ms
+
+data: 64K
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 0.544 ms
+(Rank 1) time: 0.531 ms
+(Rank 2) time: 0.530 ms
+(Rank 4) time: 0.547 ms
+
+data: 256K
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 1) time: 1.853 ms
+(Rank 2) time: 1.852 ms
+(Rank 0) time: 1.866 ms
+(Rank 4) time: 1.867 ms
+
+data: 1M
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 6.780 ms
+(Rank 1) time: 6.763 ms
+(Rank 2) time: 6.762 ms
+(Rank 4) time: 6.779 ms
+
+data: 4M
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 1) time: 25.151 ms
+(Rank 2) time: 25.150 ms
+(Rank 0) time: 25.166 ms
+(Rank 4) time: 25.166 ms
+
+data: 16M
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 1) time: 101.034 ms
+(Rank 0) time: 101.049 ms
+(Rank 2) time: 101.045 ms
+(Rank 4) time: 101.062 ms
+
+data: 64M
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 1) time: 512.559 ms
+(Rank 0) time: 512.577 ms
+(Rank 2) time: 512.566 ms
+(Rank 4) time: 512.584 ms
+
+data: 256M
+(Rank 3) time: 0.002 ms
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 1) time: 1594.108 ms
+(Rank 0) time: 1594.135 ms
+(Rank 2) time: 1594.136 ms
+(Rank 4) time: 1594.150 ms
+
+data: 1024M
+Failed: CUDA error mptomp.cu:103 'out of memory'

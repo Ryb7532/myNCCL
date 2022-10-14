@@ -1,0 +1,47 @@
+data: 4K
+(Rank 0) time: 0.048 ms
+(Rank 1) time: 0.045 ms
+(Rank 2) time: 0.049 ms
+
+data: 16K
+(Rank 0) time: 0.060 ms
+(Rank 1) time: 0.056 ms
+(Rank 2) time: 0.061 ms
+
+data: 64K
+(Rank 0) time: 0.103 ms
+(Rank 1) time: 0.099 ms
+(Rank 2) time: 0.103 ms
+
+data: 256K
+(Rank 0) time: 0.180 ms
+(Rank 1) time: 0.175 ms
+(Rank 2) time: 0.181 ms
+
+data: 1M
+(Rank 0) time: 0.583 ms
+(Rank 1) time: 0.578 ms
+(Rank 2) time: 0.584 ms
+
+data: 4M
+(Rank 0) time: 2.198 ms
+(Rank 1) time: 2.192 ms
+(Rank 2) time: 2.196 ms
+
+data: 16M
+(Rank 0) time: 8.380 ms
+(Rank 1) time: 8.376 ms
+(Rank 2) time: 8.380 ms
+
+data: 64M
+(Rank 0) time: 33.228 ms
+(Rank 1) time: 33.225 ms
+(Rank 2) time: 33.228 ms
+
+data: 256M
+(Rank 1) time: 133.061 ms
+(Rank 0) time: 133.065 ms
+(Rank 2) time: 133.065 ms
+
+data: 1024M
+Failed: CUDA error mptomp.cu:103 'out of memory'

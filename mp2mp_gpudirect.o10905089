@@ -1,0 +1,103 @@
+data: 4K
+(Rank 7) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 0) time: 1.018 ms
+(Rank 1) time: 1.003 ms
+(Rank 2) time: 1.004 ms
+(Rank 3) time: 1.012 ms
+(Rank 4) time: 1.019 ms
+
+data: 16K
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 1.077 ms
+(Rank 1) time: 1.057 ms
+(Rank 2) time: 1.062 ms
+(Rank 3) time: 1.070 ms
+(Rank 4) time: 1.077 ms
+
+data: 64K
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 1.225 ms
+(Rank 1) time: 1.205 ms
+(Rank 2) time: 1.210 ms
+(Rank 3) time: 1.218 ms
+(Rank 4) time: 1.224 ms
+
+data: 256K
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 1.757 ms
+(Rank 1) time: 1.741 ms
+(Rank 2) time: 1.743 ms
+(Rank 3) time: 1.749 ms
+(Rank 4) time: 1.760 ms
+
+data: 1M
+(Rank 7) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 0) time: 3.646 ms
+(Rank 1) time: 3.634 ms
+(Rank 2) time: 3.635 ms
+(Rank 3) time: 3.642 ms
+(Rank 4) time: 3.650 ms
+
+data: 4M
+(Rank 7) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 0) time: 12.632 ms
+(Rank 1) time: 12.619 ms
+(Rank 3) time: 12.626 ms
+(Rank 2) time: 12.620 ms
+(Rank 4) time: 12.639 ms
+
+data: 16M
+(Rank 7) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 0) time: 42.223 ms
+(Rank 3) time: 42.243 ms
+(Rank 2) time: 42.235 ms
+(Rank 1) time: 42.238 ms
+(Rank 4) time: 42.254 ms
+
+data: 64M
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 223.608 ms
+(Rank 1) time: 223.610 ms
+(Rank 3) time: 223.621 ms
+(Rank 2) time: 223.617 ms
+(Rank 4) time: 223.633 ms
+
+data: 128M
+(Rank 7) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 0) time: 372.778 ms
+(Rank 2) time: 372.765 ms
+(Rank 3) time: 372.820 ms
+(Rank 1) time: 372.824 ms
+(Rank 4) time: 372.838 ms
+
+data: 256M
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 803.079 ms
+(Rank 2) time: 803.267 ms
+(Rank 3) time: 803.315 ms
+(Rank 1) time: 803.379 ms
+(Rank 4) time: 803.395 ms
+
+data: 1024M
+Failed: CUDA error gpudirect_mptomp.cu:74 'out of memory'
+Failed: CUDA error gpudirect_mptomp.cu:75 'out of memory'
