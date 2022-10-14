@@ -1,0 +1,93 @@
+data: 4K
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 0.189 ms
+(Rank 1) time: 0.176 ms
+(Rank 2) time: 0.175 ms
+(Rank 3) time: 0.182 ms
+(Rank 4) time: 0.189 ms
+
+data: 16K
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 0.313 ms
+(Rank 1) time: 0.297 ms
+(Rank 2) time: 0.297 ms
+(Rank 3) time: 0.303 ms
+(Rank 4) time: 0.311 ms
+
+data: 64K
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 0.710 ms
+(Rank 1) time: 0.695 ms
+(Rank 2) time: 0.695 ms
+(Rank 3) time: 0.702 ms
+(Rank 4) time: 0.709 ms
+
+data: 256K
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 2.526 ms
+(Rank 1) time: 2.512 ms
+(Rank 3) time: 2.519 ms
+(Rank 2) time: 2.511 ms
+(Rank 4) time: 2.527 ms
+
+data: 1M
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 8.477 ms
+(Rank 1) time: 8.464 ms
+(Rank 3) time: 8.471 ms
+(Rank 2) time: 8.464 ms
+(Rank 4) time: 8.479 ms
+
+data: 4M
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 33.386 ms
+(Rank 2) time: 33.371 ms
+(Rank 1) time: 33.371 ms
+(Rank 3) time: 33.380 ms
+(Rank 4) time: 33.387 ms
+
+data: 16M
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 133.130 ms
+(Rank 1) time: 133.116 ms
+(Rank 2) time: 133.117 ms
+(Rank 3) time: 133.126 ms
+(Rank 4) time: 133.134 ms
+
+data: 64M
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 592.399 ms
+(Rank 1) time: 592.383 ms
+(Rank 3) time: 592.393 ms
+(Rank 2) time: 592.389 ms
+(Rank 4) time: 592.404 ms
+
+data: 256M
+(Rank 7) time: 0.002 ms
+(Rank 5) time: 0.002 ms
+(Rank 6) time: 0.002 ms
+(Rank 0) time: 2134.982 ms
+(Rank 1) time: 2134.971 ms
+(Rank 2) time: 2134.973 ms
+(Rank 3) time: 2134.984 ms
+(Rank 4) time: 2134.994 ms
+
+data: 1024M
+Failed: CUDA error mptomp.cu:102 'out of memory'
+Failed: CUDA error mptomp.cu:103 'out of memory'

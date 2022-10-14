@@ -1,0 +1,198 @@
+data: 4K
+(Rank 0) time: 0.388 ms
+(Rank 1) time: 0.351 ms
+(Rank 2) time: 0.352 ms
+(Rank 3) time: 0.371 ms
+(Rank 8) time: 0.246 ms
+(Rank 9) time: 0.184 ms
+(Rank 12) time: 0.209 ms
+(Rank 4) time: 0.275 ms
+(Rank 10) time: 0.184 ms
+(Rank 13) time: 0.175 ms
+(Rank 5) time: 0.230 ms
+(Rank 11) time: 0.204 ms
+(Rank 14) time: 0.175 ms
+(Rank 6) time: 0.229 ms
+(Rank 15) time: 0.200 ms
+(Rank 7) time: 0.250 ms
+
+data: 16K
+(Rank 0) time: 0.387 ms
+(Rank 1) time: 0.365 ms
+(Rank 2) time: 0.365 ms
+(Rank 3) time: 0.378 ms
+(Rank 8) time: 0.231 ms
+(Rank 4) time: 0.260 ms
+(Rank 9) time: 0.175 ms
+(Rank 12) time: 0.192 ms
+(Rank 5) time: 0.231 ms
+(Rank 10) time: 0.175 ms
+(Rank 13) time: 0.173 ms
+(Rank 6) time: 0.231 ms
+(Rank 11) time: 0.188 ms
+(Rank 14) time: 0.172 ms
+(Rank 7) time: 0.245 ms
+(Rank 15) time: 0.186 ms
+
+data: 64K
+(Rank 0) time: 0.560 ms
+(Rank 1) time: 0.540 ms
+(Rank 2) time: 0.541 ms
+(Rank 3) time: 0.553 ms
+(Rank 8) time: 0.415 ms
+(Rank 4) time: 0.446 ms
+(Rank 12) time: 0.378 ms
+(Rank 9) time: 0.359 ms
+(Rank 5) time: 0.415 ms
+(Rank 13) time: 0.359 ms
+(Rank 10) time: 0.360 ms
+(Rank 6) time: 0.415 ms
+(Rank 14) time: 0.359 ms
+(Rank 11) time: 0.374 ms
+(Rank 7) time: 0.429 ms
+(Rank 15) time: 0.372 ms
+
+data: 256K
+(Rank 1) time: 1.077 ms
+(Rank 2) time: 1.077 ms
+(Rank 3) time: 1.090 ms
+(Rank 0) time: 1.101 ms
+(Rank 10) time: 0.891 ms
+(Rank 11) time: 0.905 ms
+(Rank 5) time: 0.947 ms
+(Rank 8) time: 0.947 ms
+(Rank 7) time: 0.961 ms
+(Rank 9) time: 0.892 ms
+(Rank 4) time: 0.978 ms
+(Rank 12) time: 0.910 ms
+(Rank 6) time: 0.947 ms
+(Rank 14) time: 0.890 ms
+(Rank 15) time: 0.904 ms
+(Rank 13) time: 0.891 ms
+
+data: 1M
+(Rank 0) time: 1.427 ms
+(Rank 2) time: 1.402 ms
+(Rank 3) time: 1.414 ms
+(Rank 1) time: 1.404 ms
+(Rank 13) time: 1.218 ms
+(Rank 12) time: 1.238 ms
+(Rank 14) time: 1.218 ms
+(Rank 15) time: 1.231 ms
+(Rank 9) time: 1.221 ms
+(Rank 4) time: 1.304 ms
+(Rank 8) time: 1.276 ms
+(Rank 5) time: 1.277 ms
+(Rank 10) time: 1.222 ms
+(Rank 6) time: 1.276 ms
+(Rank 11) time: 1.235 ms
+(Rank 7) time: 1.289 ms
+
+data: 4M
+(Rank 8) time: 4.010 ms
+(Rank 5) time: 4.010 ms
+(Rank 10) time: 3.955 ms
+(Rank 7) time: 4.024 ms
+(Rank 11) time: 3.967 ms
+(Rank 6) time: 4.011 ms
+(Rank 9) time: 3.957 ms
+(Rank 4) time: 4.042 ms
+(Rank 1) time: 4.131 ms
+(Rank 3) time: 4.146 ms
+(Rank 2) time: 4.132 ms
+(Rank 12) time: 3.975 ms
+(Rank 14) time: 3.957 ms
+(Rank 15) time: 3.969 ms
+(Rank 0) time: 4.155 ms
+(Rank 13) time: 3.959 ms
+
+data: 16M
+(Rank 12) time: 15.548 ms
+(Rank 14) time: 15.528 ms
+(Rank 13) time: 15.530 ms
+(Rank 9) time: 15.530 ms
+(Rank 0) time: 15.746 ms
+(Rank 2) time: 15.722 ms
+(Rank 15) time: 15.543 ms
+(Rank 11) time: 15.543 ms
+(Rank 10) time: 15.532 ms
+(Rank 8) time: 15.588 ms
+(Rank 1) time: 15.722 ms
+(Rank 3) time: 15.736 ms
+(Rank 7) time: 15.602 ms
+(Rank 4) time: 15.620 ms
+(Rank 5) time: 15.587 ms
+(Rank 6) time: 15.589 ms
+
+data: 64M
+(Rank 14) time: 60.082 ms
+(Rank 12) time: 60.101 ms
+(Rank 15) time: 60.096 ms
+(Rank 13) time: 60.084 ms
+(Rank 0) time: 60.287 ms
+(Rank 9) time: 60.084 ms
+(Rank 10) time: 60.086 ms
+(Rank 11) time: 60.097 ms
+(Rank 8) time: 60.142 ms
+(Rank 1) time: 60.268 ms
+(Rank 2) time: 60.267 ms
+(Rank 3) time: 60.280 ms
+(Rank 5) time: 60.141 ms
+(Rank 7) time: 60.155 ms
+(Rank 4) time: 60.173 ms
+(Rank 6) time: 60.141 ms
+
+data: 128M
+(Rank 2) time: 124.696 ms
+(Rank 3) time: 124.710 ms
+(Rank 0) time: 124.719 ms
+(Rank 1) time: 124.696 ms
+(Rank 13) time: 124.511 ms
+(Rank 15) time: 124.526 ms
+(Rank 4) time: 124.599 ms
+(Rank 12) time: 124.533 ms
+(Rank 6) time: 124.570 ms
+(Rank 14) time: 124.513 ms
+(Rank 7) time: 124.584 ms
+(Rank 5) time: 124.571 ms
+(Rank 9) time: 124.514 ms
+(Rank 8) time: 124.572 ms
+(Rank 10) time: 124.516 ms
+(Rank 11) time: 124.529 ms
+
+data: 256M
+(Rank 1) time: 226.121 ms
+(Rank 3) time: 226.134 ms
+(Rank 2) time: 226.122 ms
+(Rank 15) time: 225.950 ms
+(Rank 4) time: 226.025 ms
+(Rank 12) time: 225.957 ms
+(Rank 9) time: 225.941 ms
+(Rank 6) time: 225.997 ms
+(Rank 0) time: 226.144 ms
+(Rank 13) time: 225.939 ms
+(Rank 10) time: 225.941 ms
+(Rank 7) time: 226.011 ms
+(Rank 14) time: 225.939 ms
+(Rank 11) time: 225.955 ms
+(Rank 5) time: 225.997 ms
+(Rank 8) time: 225.999 ms
+
+data: 1024M
+(Rank 0) time: 1014.456 ms
+(Rank 1) time: 1014.438 ms
+(Rank 2) time: 1014.437 ms
+(Rank 3) time: 1014.450 ms
+(Rank 14) time: 1014.259 ms
+(Rank 15) time: 1014.273 ms
+(Rank 12) time: 1014.277 ms
+(Rank 13) time: 1014.260 ms
+(Rank 9) time: 1014.262 ms
+(Rank 10) time: 1014.261 ms
+(Rank 11) time: 1014.277 ms
+(Rank 8) time: 1014.319 ms
+(Rank 5) time: 1014.320 ms
+(Rank 4) time: 1014.349 ms
+(Rank 6) time: 1014.320 ms
+(Rank 7) time: 1014.334 ms
+
