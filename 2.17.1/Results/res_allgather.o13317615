@@ -1,0 +1,117 @@
+data: 32K
+nRanks: 8, myRank: 0, localRank: 0
+nRanks: 8, myRank: 1, localRank: 1
+nRanks: 8, myRank: 2, localRank: 2
+nRanks: 8, myRank: 3, localRank: 3
+nRanks: 8, myRank: 4, localRank: 0
+nRanks: 8, myRank: 5, localRank: 1
+nRanks: 8, myRank: 6, localRank: 2
+nRanks: 8, myRank: 7, localRank: 3
+(Rank 0) time: 0.431 ms
+(Rank 1) time: 0.429 ms
+(Rank 2) time: 0.430 ms
+(Rank 3) time: 0.431 ms
+(Rank 4) time: 0.419 ms
+(Rank 5) time: 0.421 ms
+(Rank 6) time: 0.419 ms
+(Rank 7) time: 0.429 ms
+
+data: 64K
+nRanks: 8, myRank: 0, localRank: 0
+nRanks: 8, myRank: 1, localRank: 1
+nRanks: 8, myRank: 2, localRank: 2
+nRanks: 8, myRank: 3, localRank: 3
+nRanks: 8, myRank: 4, localRank: 0
+nRanks: 8, myRank: 5, localRank: 1
+nRanks: 8, myRank: 6, localRank: 2
+nRanks: 8, myRank: 7, localRank: 3
+(Rank 3) time: 0.503 ms
+(Rank 1) time: 0.503 ms
+(Rank 2) time: 0.503 ms
+(Rank 0) time: 0.504 ms
+(Rank 4) time: 0.529 ms
+(Rank 5) time: 0.529 ms
+(Rank 6) time: 0.529 ms
+(Rank 7) time: 0.529 ms
+
+data: 128K
+nRanks: 8, myRank: 0, localRank: 0
+nRanks: 8, myRank: 1, localRank: 1
+nRanks: 8, myRank: 2, localRank: 2
+nRanks: 8, myRank: 3, localRank: 3
+nRanks: 8, myRank: 4, localRank: 0
+nRanks: 8, myRank: 5, localRank: 1
+nRanks: 8, myRank: 6, localRank: 2
+nRanks: 8, myRank: 7, localRank: 3
+(Rank 0) time: 0.411 ms
+(Rank 1) time: 0.411 ms
+(Rank 2) time: 0.410 ms
+(Rank 3) time: 0.411 ms
+(Rank 4) time: 0.436 ms
+(Rank 5) time: 0.436 ms
+(Rank 6) time: 0.436 ms
+(Rank 7) time: 0.436 ms
+
+data: 256K
+nRanks: 8, myRank: 0, localRank: 0
+nRanks: 8, myRank: 1, localRank: 1
+nRanks: 8, myRank: 2, localRank: 2
+nRanks: 8, myRank: 3, localRank: 3
+nRanks: 8, myRank: 4, localRank: 0
+nRanks: 8, myRank: 5, localRank: 1
+nRanks: 8, myRank: 6, localRank: 2
+nRanks: 8, myRank: 7, localRank: 3
+(Rank 1) time: 0.478 ms
+(Rank 2) time: 0.481 ms
+(Rank 3) time: 0.477 ms
+(Rank 0) time: 0.481 ms
+(Rank 5) time: 0.497 ms
+(Rank 6) time: 0.508 ms
+(Rank 7) time: 0.498 ms
+(Rank 4) time: 0.505 ms
+
+data: 512K
+nRanks: 8, myRank: 0, localRank: 0
+nRanks: 8, myRank: 1, localRank: 1
+nRanks: 8, myRank: 2, localRank: 2
+nRanks: 8, myRank: 3, localRank: 3
+nRanks: 8, myRank: 4, localRank: 0
+nRanks: 8, myRank: 5, localRank: 1
+nRanks: 8, myRank: 6, localRank: 2
+nRanks: 8, myRank: 7, localRank: 3
+(Rank 2) time: 0.609 ms
+(Rank 3) time: 0.611 ms
+(Rank 0) time: 0.611 ms
+(Rank 1) time: 0.611 ms
+(Rank 6) time: 0.637 ms
+(Rank 7) time: 0.606 ms
+(Rank 4) time: 0.638 ms
+(Rank 5) time: 0.606 ms
+
+data: 1024K
+nRanks: 8, myRank: 0, localRank: 0
+nRanks: 8, myRank: 1, localRank: 1
+nRanks: 8, myRank: 2, localRank: 2
+nRanks: 8, myRank: 3, localRank: 3
+nRanks: 8, myRank: 4, localRank: 0
+nRanks: 8, myRank: 5, localRank: 1
+nRanks: 8, myRank: 6, localRank: 2
+nRanks: 8, myRank: 7, localRank: 3
+(Rank 3) time: 0.860 ms
+(Rank 1) time: 0.861 ms
+(Rank 2) time: 0.860 ms
+(Rank 6) time: 0.808 ms
+(Rank 4) time: 0.808 ms
+(Rank 5) time: 0.808 ms
+(Rank 7) time: 0.808 ms
+(Rank 0) time: 0.861 ms
+
+data: 4096K
+nRanks: 8, myRank: 0, localRank: 0
+nRanks: 8, myRank: 1, localRank: 1
+nRanks: 8, myRank: 2, localRank: 2
+nRanks: 8, myRank: 3, localRank: 3
+nRanks: 8, myRank: 4, localRank: 0
+nRanks: 8, myRank: 5, localRank: 1
+nRanks: 8, myRank: 6, localRank: 2
+nRanks: 8, myRank: 7, localRank: 3

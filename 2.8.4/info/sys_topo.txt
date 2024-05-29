@@ -1,57 +1,57 @@
 <system version="1">
   <cpu numaid="0" affinity="0003ff,f0003fff" arch="x86_64" vendor="GenuineIntel" familyid="6" modelid="79">
-    <pci busid="0000:04:00.0" class="0x060400" link_speed="" link_width="0">
-      <pci busid="0000:06:00.0" class="0x030200" link_speed="" link_width="0">
+    <pci busid="0000:04:00.0" class="0x060400" link_speed="8 GT/s" link_width="16">
+      <pci busid="0000:06:00.0" class="0x030200" link_speed="8 GT/s" link_width="16">
         <gpu dev="0" sm="60" rank="0" gdr="0">
           <nvlink target="0000:85:00.0" count="2" tclass="0x030200"/>
           <nvlink target="0000:87:00.0" count="1" tclass="0x030200"/>
           <nvlink target="0000:08:00.0" count="1" tclass="0x030200"/>
         </gpu>
       </pci>
-      <pci busid="0000:08:00.0" class="0x030200" link_speed="" link_width="0">
+      <pci busid="0000:08:00.0" class="0x030200" link_speed="8 GT/s" link_width="16">
         <gpu dev="1" sm="60" rank="1" gdr="0">
           <nvlink target="0000:06:00.0" count="1" tclass="0x030200"/>
           <nvlink target="0000:85:00.0" count="1" tclass="0x030200"/>
           <nvlink target="0000:87:00.0" count="2" tclass="0x030200"/>
         </gpu>
       </pci>
-      <pci busid="0000:07:00.0" class="0x020800" link_speed="" link_width="0">
+      <pci busid="0000:07:00.0" class="0x020800" link_speed="8 GT/s" link_width="16">
         <nic>
-          <net name="hfi1_1" dev="3" speed="100000" port="1" guid="0xf8677b0101751100" maxconn="32768" gdr="0"/>
+          <net name="hfi1_1" dev="3" speed="100000" port="1" guid="0x9f44710101751100" maxconn="32768" gdr="0"/>
         </nic>
       </pci>
     </pci>
-    <pci busid="0000:03:00.0" class="0x020800" link_speed="" link_width="0">
+    <pci busid="0000:03:00.0" class="0x020800" link_speed="8 GT/s" link_width="16">
       <nic>
-        <net name="hfi1_0" dev="1" speed="100000" port="1" guid="0xf8677b0101751100" maxconn="32768" gdr="0"/>
+        <net name="hfi1_0" dev="1" speed="100000" port="1" guid="0x9f44710101751100" maxconn="32768" gdr="0"/>
       </nic>
     </pci>
   </cpu>
   <cpu numaid="1" affinity="fffc00,0fffc000" arch="x86_64" vendor="GenuineIntel" familyid="6" modelid="79">
-    <pci busid="0000:83:00.0" class="0x060400" link_speed="" link_width="0">
-      <pci busid="0000:85:00.0" class="0x030200" link_speed="" link_width="0">
+    <pci busid="0000:83:00.0" class="0x060400" link_speed="8 GT/s" link_width="16">
+      <pci busid="0000:85:00.0" class="0x030200" link_speed="8 GT/s" link_width="16">
         <gpu dev="2" sm="60" rank="2" gdr="0">
           <nvlink target="0000:87:00.0" count="1" tclass="0x030200"/>
           <nvlink target="0000:08:00.0" count="1" tclass="0x030200"/>
           <nvlink target="0000:06:00.0" count="2" tclass="0x030200"/>
         </gpu>
       </pci>
-      <pci busid="0000:87:00.0" class="0x030200" link_speed="" link_width="0">
+      <pci busid="0000:87:00.0" class="0x030200" link_speed="8 GT/s" link_width="16">
         <gpu dev="3" sm="60" rank="3" gdr="0">
           <nvlink target="0000:08:00.0" count="2" tclass="0x030200"/>
           <nvlink target="0000:06:00.0" count="1" tclass="0x030200"/>
           <nvlink target="0000:85:00.0" count="1" tclass="0x030200"/>
         </gpu>
       </pci>
-      <pci busid="0000:86:00.0" class="0x020800" link_speed="" link_width="0">
+      <pci busid="0000:86:00.0" class="0x020800" link_speed="8 GT/s" link_width="16">
         <nic>
-          <net name="hfi1_2" dev="0" speed="100000" port="1" guid="0xf8677b0101751100" maxconn="32768" gdr="0"/>
+          <net name="hfi1_2" dev="0" speed="100000" port="1" guid="0x9f44710101751100" maxconn="32768" gdr="0"/>
         </nic>
       </pci>
     </pci>
-    <pci busid="0000:88:00.0" class="0x020800" link_speed="" link_width="0">
+    <pci busid="0000:88:00.0" class="0x020800" link_speed="8 GT/s" link_width="16">
       <nic>
-        <net name="hfi1_3" dev="2" speed="100000" port="1" guid="0xf8677b0101751100" maxconn="32768" gdr="0"/>
+        <net name="hfi1_3" dev="2" speed="100000" port="1" guid="0x9f44710101751100" maxconn="32768" gdr="0"/>
       </nic>
     </pci>
   </cpu>

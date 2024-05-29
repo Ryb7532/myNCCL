@@ -2,14 +2,16 @@
 #$ -cwd
 #$ -l f_node=2
 #$ -l h_rt=00:10:00
-#$ -N allreduce
+#$ -N res_allreduce
 
 . /etc/profile.d/modules.sh
-module load gcc/8.3.0 intel cuda/11.2.146 openmpi nccl
+module load cuda/11.0.3 openmpi/3.1.4-opa10.10 nccl/2.17.1
 
 nvcc allreduce.cu -lmpi -lnccl
+# nvcc allgather.cu -lmpi -lnccl
+# nvcc reducescatter.cu -lmpi -lnccl
 
-#export NCCL_DEBUG=INFO
+# export NCCL_DEBUG=INFO
 export NCCL_BUFFSIZE=1048576
 for i in 32 64 128 256 512 1024 4096
 do

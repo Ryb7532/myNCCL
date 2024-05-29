@@ -1,0 +1,24 @@
+r1i7n0:6935:6935 [2] NCCL INFO cudaDriverVersion 11000
+r1i7n0:6935:6935 [2] NCCL INFO Bootstrap : Using ib0:10.0.1.1<0>
+r1i7n0:6935:6935 [2] NCCL INFO NET/Plugin : Plugin load (libnccl-net.so) returned 2 : libnccl-net.so: cannot open shared object file: No such file or directory
+r1i7n0:6935:6935 [2] NCCL INFO NET/Plugin : No plugin found, using internal implementation
+r1i7n0:6935:6935 [2] NCCL INFO NET/IB : Using [0]hfi1_2:1/IB [1]hfi1_0:1/IB [2]hfi1_3:1/IB [3]hfi1_1:1/IB ; OOB ib0:10.0.1.1<0>
+r1i7n0:6935:6935 [2] NCCL INFO Using network IB
+r1i7n0:6935:6935 [2] NCCL INFO Setting affinity for GPU 2 to fffc00,0fffc000
+r1i7n0:6935:6935 [2] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 5/-1/-1->6->7 [2] 7/-1/-1->6->5 [3] 5/-1/-1->6->7
+r1i7n0:6935:6935 [2] NCCL INFO NCCL_BUFFSIZE set by environment to 1048576.
+r1i7n0:6935:6935 [2] NCCL INFO P2P Chunksize set to 131072
+r1i7n0:6935:6935 [2] NCCL INFO Channel 00/0 : 6[85000] -> 7[87000] via P2P/IPC
+r1i7n0:6935:6935 [2] NCCL INFO Channel 01/0 : 6[85000] -> 7[87000] via P2P/IPC
+r1i7n0:6935:6935 [2] NCCL INFO Channel 02/0 : 6[85000] -> 7[87000] via P2P/IPC
+r1i7n0:6935:6935 [2] NCCL INFO Channel 03/0 : 6[85000] -> 7[87000] via P2P/IPC
+r1i7n0:6935:6935 [2] NCCL INFO Connected all rings
+r1i7n0:6935:6935 [2] NCCL INFO Channel 00/0 : 6[85000] -> 5[8000] via P2P/IPC
+r1i7n0:6935:6935 [2] NCCL INFO Channel 01/0 : 6[85000] -> 5[8000] via P2P/IPC
+r1i7n0:6935:6935 [2] NCCL INFO Channel 02/0 : 6[85000] -> 5[8000] via P2P/IPC
+r1i7n0:6935:6935 [2] NCCL INFO Channel 03/0 : 6[85000] -> 5[8000] via P2P/IPC
+r1i7n0:6935:6935 [2] NCCL INFO Connected all trees
+r1i7n0:6935:6935 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 512 | 512
+r1i7n0:6935:6935 [2] NCCL INFO 4 coll channels, 0 nvls channels, 4 p2p channels, 2 p2p channels per peer
+r1i7n0:6935:6935 [2] NCCL INFO comm 0xf1d290 rank 6 nranks 8 cudaDev 2 busId 85000 commId 0x7d0a536a4dc84ad8 - Init COMPLETE
+r1i7n0:6935:6935 [2] NCCL INFO comm 0xf1d290 rank 6 nranks 8 cudaDev 2 busId 85000 - Destroy COMPLETE

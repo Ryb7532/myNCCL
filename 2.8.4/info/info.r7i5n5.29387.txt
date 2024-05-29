@@ -1,0 +1,25 @@
+r7i5n5:29387:29387 [2] NCCL INFO Bootstrap : Using ib0:10.0.7.21<0>
+r7i5n5:29387:29387 [2] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+r7i5n5:29387:29387 [2] NCCL INFO NET/IB : Using [0]hfi1_2:1/IB [1]hfi1_0:1/IB [2]hfi1_3:1/IB [3]hfi1_1:1/IB ; OOB ib0:10.0.7.21<0>
+r7i5n5:29387:29387 [2] NCCL INFO Using network IB
+r7i5n5:29387:29387 [2] NCCL INFO Trees [0] 7/-1/-1->6->5 [1] 4/-1/-1->6->2 [2] 7/-1/-1->6->5 [3] 4/2/-1->6->-1
+r7i5n5:29387:29387 [2] NCCL INFO Setting affinity for GPU 2 to fffc00,0fffc000
+r7i5n5:29387:29387 [2] NCCL INFO NCCL_BUFFSIZE set by environment to 1048576.
+r7i5n5:29387:29387 [2] NCCL INFO Channel 00 : 6[85000] -> 7[87000] via P2P/IPC
+r7i5n5:29387:29387 [2] NCCL INFO Channel 01 : 6[85000] -> 7[87000] via P2P/IPC
+r7i5n5:29387:29387 [2] NCCL INFO Channel 02 : 6[85000] -> 7[87000] via P2P/IPC
+r7i5n5:29387:29387 [2] NCCL INFO Channel 03 : 6[85000] -> 7[87000] via P2P/IPC
+r7i5n5:29387:29387 [2] NCCL INFO Connected all rings
+r7i5n5:29387:29387 [2] NCCL INFO Channel 01 : 2[85000] -> 6[85000] [receive] via NET/IB/2
+r7i5n5:29387:29387 [2] NCCL INFO Channel 03 : 2[85000] -> 6[85000] [receive] via NET/IB/2
+r7i5n5:29387:29387 [2] NCCL INFO Channel 01 : 6[85000] -> 2[85000] [send] via NET/IB/2
+r7i5n5:29387:29387 [2] NCCL INFO Channel 03 : 6[85000] -> 2[85000] [send] via NET/IB/2
+r7i5n5:29387:29387 [2] NCCL INFO NCCL_IB_SL set by environment to 0.
+r7i5n5:29387:29387 [2] NCCL INFO Channel 01 : 6[85000] -> 4[6000] via P2P/IPC
+r7i5n5:29387:29387 [2] NCCL INFO Channel 03 : 6[85000] -> 4[6000] via P2P/IPC
+r7i5n5:29387:29387 [2] NCCL INFO Channel 00 : 6[85000] -> 5[8000] via P2P/IPC
+r7i5n5:29387:29387 [2] NCCL INFO Channel 02 : 6[85000] -> 5[8000] via P2P/IPC
+r7i5n5:29387:29387 [2] NCCL INFO Connected all trees
+r7i5n5:29387:29387 [2] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+r7i5n5:29387:29387 [2] NCCL INFO 4 coll channels, 4 p2p channels, 1 p2p channels per peer
+r7i5n5:29387:29387 [2] NCCL INFO comm 0xf48160 rank 6 nranks 8 cudaDev 2 busId 85000 - Init COMPLETE

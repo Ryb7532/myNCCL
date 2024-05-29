@@ -1,0 +1,20 @@
+r7i5n5:29388:29388 [3] NCCL INFO Bootstrap : Using ib0:10.0.7.21<0>
+r7i5n5:29388:29388 [3] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+r7i5n5:29388:29388 [3] NCCL INFO NET/IB : Using [0]hfi1_2:1/IB [1]hfi1_0:1/IB [2]hfi1_3:1/IB [3]hfi1_1:1/IB ; OOB ib0:10.0.7.21<0>
+r7i5n5:29388:29388 [3] NCCL INFO Using network IB
+r7i5n5:29388:29388 [3] NCCL INFO Trees [0] -1/-1/-1->7->6 [1] 5/-1/-1->7->4 [2] -1/-1/-1->7->6 [3] 5/-1/-1->7->4
+r7i5n5:29388:29388 [3] NCCL INFO Setting affinity for GPU 3 to fffc00,0fffc000
+r7i5n5:29388:29388 [3] NCCL INFO NCCL_BUFFSIZE set by environment to 1048576.
+r7i5n5:29388:29388 [3] NCCL INFO Channel 00 : 7[87000] -> 0[6000] [send] via NET/IB/2
+r7i5n5:29388:29388 [3] NCCL INFO Channel 02 : 7[87000] -> 0[6000] [send] via NET/IB/2
+r7i5n5:29388:29388 [3] NCCL INFO Channel 01 : 7[87000] -> 5[8000] via P2P/IPC
+r7i5n5:29388:29388 [3] NCCL INFO Channel 03 : 7[87000] -> 5[8000] via P2P/IPC
+r7i5n5:29388:29388 [3] NCCL INFO Connected all rings
+r7i5n5:29388:29388 [3] NCCL INFO Channel 01 : 7[87000] -> 4[6000] via P2P/IPC
+r7i5n5:29388:29388 [3] NCCL INFO Channel 03 : 7[87000] -> 4[6000] via P2P/IPC
+r7i5n5:29388:29388 [3] NCCL INFO Channel 00 : 7[87000] -> 6[85000] via P2P/IPC
+r7i5n5:29388:29388 [3] NCCL INFO Channel 02 : 7[87000] -> 6[85000] via P2P/IPC
+r7i5n5:29388:29388 [3] NCCL INFO Connected all trees
+r7i5n5:29388:29388 [3] NCCL INFO threadThresholds 8/8/64 | 64/8/64 | 8/8/64
+r7i5n5:29388:29388 [3] NCCL INFO 4 coll channels, 4 p2p channels, 1 p2p channels per peer
+r7i5n5:29388:29388 [3] NCCL INFO comm 0xf481a0 rank 7 nranks 8 cudaDev 3 busId 87000 - Init COMPLETE

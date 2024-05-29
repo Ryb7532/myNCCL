@@ -1,0 +1,17 @@
+nRanks: 8, myRank: 0, localRank: 0
+nRanks: 8, myRank: 1, localRank: 1
+nRanks: 8, myRank: 2, localRank: 2
+nRanks: 8, myRank: 3, localRank: 3
+nRanks: 8, myRank: 4, localRank: 0
+nRanks: 8, myRank: 5, localRank: 1
+nRanks: 8, myRank: 6, localRank: 2
+nRanks: 8, myRank: 7, localRank: 3
+NCCL version 2.8.4+cuda11.2
+(Rank 3) time: 22.121 ms
+(Rank 1) time: 22.105 ms
+(Rank 2) time: 22.104 ms
+(Rank 0) time: 22.136 ms
+(Rank 4) time: 22.134 ms
+(Rank 5) time: 22.104 ms
+(Rank 6) time: 22.104 ms
+(Rank 7) time: 22.121 ms
